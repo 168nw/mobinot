@@ -6,20 +6,20 @@ const products = [
   {
     id: 1,
     image: assets.girl_with_headphone_image,
-    title: "Unparalleled Sound",
-    description: "Experience crystal-clear audio with premium headphones.",
+    title: "Непревзойденный звук",
+    description: "Наслаждайтесь кристально чистым звуком с наушниками премиум-класса.",
   },
   {
     id: 2,
     image: assets.girl_with_earphone_image,
-    title: "Stay Connected",
-    description: "Compact and stylish earphones for every occasion.",
+    title: "Оставайтесь на связи",
+    description: "Компактные и стильные наушники на любой случай.",
   },
   {
     id: 3,
     image: assets.boy_with_laptop_image,
-    title: "Power in Every Pixel",
-    description: "Shop the latest laptops for work, gaming, and more.",
+    title: "Мощность в каждом пикселе",
+    description: "Приобретайте новейшие ноутбуки для работы, игр и многого другого.",
   },
 ];
 
@@ -27,7 +27,7 @@ const FeaturedProduct = () => {
   return (
     <div className="mt-14">
       <div className="flex flex-col items-center">
-        <p className="text-3xl font-medium">Featured Products</p>
+        <p className="text-3xl font-medium">Рекомендуемые товары</p>
         <div className="w-28 h-0.5 bg-orange-600 mt-2"></div>
       </div>
 
@@ -45,7 +45,7 @@ const FeaturedProduct = () => {
                 {description}
               </p>
               <button className="flex items-center gap-1.5 bg-orange-600 px-4 py-2 rounded">
-                Buy now <Image className="h-3 w-3" src={assets.redirect_icon} alt="Redirect Icon" />
+                Купить сейчас <Image className="h-3 w-3" src={assets.redirect_icon} alt="Redirect Icon" />
               </button>
             </div>
           </div>
